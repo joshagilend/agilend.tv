@@ -16,11 +16,10 @@
     .image { margin: auto; max-width: 768px;}
     .image img { width: 100%;}
     .video-gallery { width: 100%; display: grid; grid-auto-flow: column;}
-    .video { padding: 20px;}
+    .video { padding: 20px; width: 100%; max-width: 650px;}
     .video-title { font-family: Arial, sans-serif; font-size: 24px; color: #800080;}
     @media (max-width: 500px) {
         .video-gallery { width: 100%; display: flex; flex-direction: column;}
-        ,video
     }
 </style>
 </head>
@@ -50,22 +49,24 @@
         <p>Warmest regards,</p>
         <p>Josh Stroud<br>CEO, agilend</p>
     </div>
-</div>
 
-<div class="video-gallery">
-    <div class="video">
-        <p class="video-title">Art Jamming with agilend</p>
-        <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Z2Z3wq8fn5c?si=2FB88NQt5AZyDqX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
 
-    <div class="video">
-        <p class="video-title">Iron Man Clip</p>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/DZaAFADoF1M?si=V_4OCOyqUv9CXOwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="video-gallery">
+        <div class="video">
+            <p class="video-title">Art Jamming with agilend</p>
+            <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Z2Z3wq8fn5c?si=2FB88NQt5AZyDqX-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div class="video">
+            <p class="video-title">Iron Man Clip</p>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/DZaAFADoF1M?si=V_4OCOyqUv9CXOwL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
     </div>
 </div>
 <div class="footer">
     <p>&copy; 2024 <a style="color: white;" href="https://agilend.net">agilend.net</a> - All rights reserved.</p>
 </div>
+
 
 </body>
 </html>
